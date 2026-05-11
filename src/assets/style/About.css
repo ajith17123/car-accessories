@@ -1,0 +1,131 @@
+.about-sec, .cont-sec, .get-sec {
+    background-color: #080808; 
+    color: white;
+    overflow-x: hidden;
+}
+.about-head {
+    color: #ff4d4d; 
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.text-about {
+    color: #bbb;
+    line-height: 1.8;
+    font-size: 1.05rem;
+    text-align: justify;
+}
+.about-img-box {
+    position: relative;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+}
+.about-img {
+    border: 2px solid #1a1a1a;
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: 0.5s ease-in-out;
+}
+.about-img:hover {
+    transform: scale(1.02);
+}
+.channel-box {
+    text-decoration: none;
+    color: white;
+    background: #111;
+    padding: 12px 30px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: 600;
+    transition: 0.3s;
+    border: 1px solid #333;
+}
+.channel-box i {
+    font-size: 1.2rem;
+}
+
+.channel-box:hover {
+    color: white;
+    transform: translateY(-5px);
+}
+.sec-title {
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.custom-input {
+    background-color: #121212 !important;
+    border: 1px solid #333 !important;
+    color: white !important;
+    padding: 12px 15px !important;
+    border-radius: 8px !important;
+    transition: 0.3s;
+}
+.custom-input::placeholder {
+    color: #666;
+}
+.btn-send {
+    background: linear-gradient(45deg, #ff4d4d, #cc0000);
+    color: white;
+    border: none;
+    padding: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 8px;
+    width: 100%;
+    transition: 0.4s;
+    letter-spacing: 1px;
+}
+.btn-send:hover {
+    background: linear-gradient(45deg, #cc0000, #990000);
+    transform: translateY(-2px);
+}
+.map-box {
+    border: 1px solid #1a1a1a;
+    border-radius: 18px;
+    overflow: hidden;
+    transition: 0.4s;
+    height: 100%;
+    min-height: 400px;
+}
+.map-box iframe {
+    height: 100% !important; 
+    width: 100%;
+    border-radius: 15px;
+}
+.map-box:hover {
+    border-color: #ff4d4d;
+}
+
+@media (max-width: 768px) {
+    .about-head {
+        font-size: 1.5rem;
+        text-align: center;
+    }    
+    .channel-box {
+        width: 100%;         
+        justify-content: center !important; 
+        align-items: center !important;
+        text-align: center !important;
+        margin-bottom: 5px;      
+    }
+    .cont-sec .d-flex {
+        flex-direction: column !important; 
+        align-items: center !important;   
+    }
+    .sec-title {
+        font-size: 1.5rem;
+        text-align: center !important;
+    }
+}
+
+
+
+
+

@@ -1,0 +1,124 @@
+
+.sec-title {
+    color: #fff;
+    font-size: 2.2rem;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+}
+.pro-spec {
+    background: rgba(20, 20, 20, 0.9);
+    padding: 40px;
+    border-radius: 20px;
+    border: 1px solid #333;
+    backdrop-filter: blur(10px);
+}
+.prod-title {
+    color: #ff4d4d;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.selection-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.custom-select {
+    flex: 1;
+    min-width: 180px;
+    background-color: #111 !important;
+    color: #fff !important;
+    border: 1px solid #444 !important;
+    padding: 12px !important;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn-find {
+    background: linear-gradient(45deg, #ff4d4d, #cc0000);
+    color: white;
+    border: none;
+    padding: 12px 35px;
+    font-weight: 700;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+.btn-find:hover {
+    letter-spacing: 1px;
+}
+.product-section {
+    padding-bottom: 80px;
+}
+.prod-card {
+    background: #121212 !important;
+    border: 1px solid #222 !important;
+    border-radius: 15px !important;
+    overflow: hidden;
+    transition: all 0.4s ease;
+}
+.prod-card:hover {
+    transform: translateY(-12px);
+    border-color: #ff4d4d !important;
+}
+.img-card {
+    position: relative;
+    height: 220px;
+    overflow: hidden;
+    background: #000;
+}
+.prod-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.6s ease;
+    opacity: 0.9;
+}
+.prod-card:hover .prod-img {
+    transform: scale(1.15);
+    opacity: 1;
+}
+.card-body {
+    padding: 20px;
+    background: #121212;
+}
+.card-title {
+    color: #efefef;
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.card-body p {
+    color: #888;
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}
+.prod-s {
+    color: #ff4d4d !important;
+    font-size: 1.3rem;
+    display: block;
+    margin-top: 5px;
+}
+.prod-btn {
+    width: 100%;
+    background: #1a1a1a;
+    color: #fff;
+    border: none;
+    border-top: 1px solid #333;
+    padding: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+.prod-card:hover .prod-btn {
+    background: #ff4d4d;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .sec-title { font-size: 1.5rem; }
+    .pro-spec { padding: 20px; }
+    .custom-select { width: 100%; }
+}

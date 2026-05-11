@@ -1,0 +1,118 @@
+.auth-card {
+    background-color: #0c0c0c; 
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.auth-body {
+    background: rgba(26, 26, 26, 0.9);
+    backdrop-filter: blur(10px);
+    border: 1px solid #333;
+    border-radius: 15px;
+    padding: 40px;
+    max-width: 450px;
+    margin: 0 auto;
+}
+.sec-title {
+    color: #fff;
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+.sec-heading {
+    color: #ff4d4d;
+    font-weight: 700;
+    text-align: center;
+}
+.btn-a {
+    background-color: #ff4d4d !important;
+    color: white !important;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+.btn-b {
+    background-color: #222 !important;
+    color: #888 !important;
+    font-weight: 700;
+    border: none;
+}
+.form-control {
+    background-color: #111 !important;
+    border: 1px solid #444 !important;
+    color: #fff !important;
+    padding: 12px;
+}
+.social-login {
+    display: flex;
+    gap: 15px;
+}
+.social-login button {
+    flex: 1;
+    background: #222;
+    border: 1px solid #444;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: 0.3s;
+}
+.form-control::placeholder {
+    color: #888;
+}
+.social-login button:hover {
+    background: #333;
+}
+.divider {
+    text-align: center;
+    color: #666;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.btn-login {
+    width: 100%;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+.btn-login:hover {
+    background-color: #cc0000;
+}
+.para-login {
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+.par-log {
+    color: #ff4d4d;
+    cursor: pointer;
+    font-weight: 600;
+    margin-left: 5px;
+}
+.par-log:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+    .auth-body {
+        padding: 25px;
+        margin: 10px;
+    }
+}
+
+
+

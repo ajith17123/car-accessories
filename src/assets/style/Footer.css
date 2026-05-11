@@ -1,0 +1,130 @@
+.footer-sec {
+    background-color: #0c0c0c; 
+    color: #ddd;
+    border-top: 3px solid #ff4d4d; 
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+.footer-logo {
+    color: #ff4d4d;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.footer-desc {
+    font-size: 0.9rem;
+    color: #999;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+.footer-head {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    position: relative;
+}
+.footer-links li {
+    margin-bottom: 12px;
+}
+.footer-links a {
+    color: #888;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 0.95rem;
+}
+.footer-links a:hover {
+    color: #ff4d4d;
+    padding-left: 10px; 
+}
+.social-links a {
+    color: #fff;
+    background-color: #1a1a1a;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: 0.4s;
+    text-decoration: none;
+    border: 1px solid #333;
+}
+.social-links a:hover {
+    background-color: #ff4d4d;
+    color: white;
+    transform: translateY(-5px);
+    border-color: #ff4d4d;
+}
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    padding: 0;
+}
+.footer-contact li {
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+    color: #bbb;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.footer-contact i {
+    color: #ff4d4d;
+    font-size: 1.1rem;
+}.newsletter h6 {
+    color: #fff;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.newsletter .form-control {
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+}
+.btn-foot {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 0 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 0 5px 5px 0;
+    transition: 0.3s;
+}
+.btn-foot:hover {
+    background-color: #cc0000;
+}
+.footer-bottom {
+    background-color: #050505;
+    border-top: 1px solid #222;
+}
+.foot-text {
+    margin-bottom: 0;
+    font-size: 0.85rem;
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    .footer-sec {
+        text-align: center;
+    }
+    .footer-contact li {
+        justify-content: center;
+    }
+    .social-links {
+        justify-content: center;
+    }
+    .footer-logo {
+        font-size: 1.5rem;
+    }
+}
+
+
+
